@@ -1,4 +1,4 @@
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
+/* Scroll de Links Activos */
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -19,10 +19,10 @@ function scrollActive(){
 window.addEventListener('scroll', scrollActive)
 
 
-/*=============== CHANGE BACKGROUND HEADER ===============*/
+/* Cambia el titulo */
 function scrollHeader(){
     const header = document.getElementById('header')
-    // When the scroll is greater than 80 viewport height, add the scroll-header class to the header tag
+    // Agregua la clase de encabezado del scroll a la etiqueta del encabezado
     if(this.scrollY >= 80) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader)

@@ -8,6 +8,7 @@
 
     <!-- Links CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/pokemons.css">
 
     <!-- Boxicon -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -30,6 +31,7 @@
         <!-- Seccion de Pokemones -->
         <section class="container section section__height" id="skills">
             <h2 class="section__title">Pokemones</h2>
+            <?php include 'assets/html/pokemones.html' ?>
         </section>
 
         <!-- Seccion de Contacto-->
@@ -41,5 +43,6 @@
 
     <!-- Archivo JS -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/pokeapi.js"></script>
 </body>
 </html>
