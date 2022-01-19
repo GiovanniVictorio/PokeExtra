@@ -15,5 +15,30 @@
 <body>
     <!-- Codigo del menu -->
     <?php include 'assets/html/menu.html' ?>
+
+    <main>
+        <!-- Seccion de inicio -->
+        <section class="container section section__height" id="home">
+            <h2 class="section__title">Home</h2>
+        </section>
+
+        <!-- Seccion de Acerca de -->
+        <section class="container section section__height" id="about">
+            <h2 class="section__title">About</h2>
+        </section>
+
+        <!-- Seccion de Pokemones -->
+        <section class="container section section__height" id="skills">
+            <h2 class="section__title">Pokemones</h2>
+        </section>
+
+        <!-- Seccion de Contacto-->
+        <section class="container section section__height" id="contactme">
+            <h2 class="section__title">Contact me</h2>
+        </section>
+    </main>
+
+    <!-- Archivo JS -->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
