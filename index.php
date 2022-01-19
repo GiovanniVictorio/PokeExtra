@@ -30,7 +30,7 @@
 
         <!-- Seccion de Pokemones -->
         <section class="container section section__height" id="skills">
-            <h2 class="section__title">Pokemones</h2>
+            <h2 class="section__title">Pokédex</h2>
             <?php include 'assets/html/pokemones.html' ?>
         </section>
 
