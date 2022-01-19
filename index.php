@@ -35,6 +35,7 @@
         <!-- Seccion de Contacto-->
         <section class="container section section__height" id="contactme">
             <h2 class="section__title">Contact me</h2>
+            <?php include 'assets/html/contacto.html' ?>
         </section>
     </main>
 
