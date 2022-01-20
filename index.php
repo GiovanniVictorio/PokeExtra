@@ -26,7 +26,7 @@
 
         <!-- Seccion de Acerca de -->
         <section class="container section section__height" id="about">
-            <h2 class="section__title">About</h2>
+            <h2 class="section__title">Un poco mas del mundo Pokémon</h2>
             <?php include 'assets/html/about.html' ?>
         </section>
 
