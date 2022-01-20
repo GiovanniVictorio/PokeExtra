@@ -9,6 +9,7 @@
     <!-- Links CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/pokemons.css">
+    <link rel="stylesheet" href="assets/css/about.css">
 
     <!-- Boxicon -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -26,6 +27,7 @@
         <!-- Seccion de Acerca de -->
         <section class="container section section__height" id="about">
             <h2 class="section__title">About</h2>
+            <?php include 'assets/html/about.html' ?>
         </section>
 
         <!-- Seccion de Pokemones -->
