@@ -9,7 +9,7 @@
     <!-- Links CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/pokemons.css">
-    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/home.css">
 
     <!-- Boxicon -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -21,13 +21,13 @@
     <main>
         <!-- Seccion de inicio -->
         <section class="container section section__height" id="home">
-            <h2 class="section__title">Home</h2>
+            <h2 class="section__title">En PokeExtra descubriras todo de los pokemones</h2>
+            <?php include 'assets/html/home.html' ?>
         </section>
 
         <!-- Seccion de Acerca de -->
         <section class="container section section__height" id="about">
-            <h2 class="section__title">Un poco mas del mundo Pokémon</h2>
-            <?php include 'assets/html/about.html' ?>
+            <h2 class="section__title">About</h2>
         </section>
 
         <!-- Seccion de Pokemones -->

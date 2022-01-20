@@ -1,0 +1,20 @@
+.contenido_home{
+  text-align: center;
+}
+.contenido_home p {
+  font-size: 1.4rem;
+}
+.img_fondo1 {
+  width: 100%;
+}
+.img_fondo1 img {
+  margin-top: 20px;
+  width: 60%;
+}
+
+@media (max-width: 750px){
+  .img_fondo1 img {
+    margin-top: 20px;
+    width: 90%;
+}
+}
